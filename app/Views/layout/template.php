@@ -10,8 +10,8 @@
   <link rel="stylesheet" href="<?= base_url('style.css'); ?>" />
 
   <!-- Bootstrap 5 -->
-  <link rel="stylesheet" href="<?= base_url('src\bootstrap-5.3.2\dist\css\bootstrap.min.css'); ?>">
-  <script src="<?= base_url('src\bootstrap-5.3.2\dist\js\bootstrap.min.js'); ?>"></script>
+  <link rel="stylesheet" href="<?= base_url('src\bootstrap-5.3.3-dist\css\bootstrap.min.css'); ?>">
+  <script src="<?= base_url('src\bootstrap-5.3.3-dist\js\bootstrap.min.js'); ?>"></script>
 
 </head>
 
@@ -48,7 +48,7 @@
     <script src="<?= base_url('jquery-3.7.1.min.js'); ?>"></script>
 
     <!-- chart.js -->
-    <script src="<?= base_url('src\chart.js-4.4.1\package\dist\chart.umd.js'); ?>"></script>
+    <script src="<?= base_url('src\chart.js-4.4.1\node_modules\chart.js\dist\chart.umd.js'); ?>"></script>
 
     <script src="<?= base_url('src\js\pue-chart.js'); ?>"></script>
     <script src="<?= base_url('src\js\lvmdp-chart.js'); ?>"></script>
