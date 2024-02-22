@@ -10,6 +10,11 @@ class Pages extends BaseController
     }
 
     public function temp() {
+        $sensor1Model = new \App\Models\Sensor1Model();
+        $sensor1 = $sensor1Model->findAll();
+
+
+
         return view('pages/temp');
     }
 
