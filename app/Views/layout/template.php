@@ -11,7 +11,6 @@
 
   <!-- Bootstrap 5 -->
   <link rel="stylesheet" href="<?= base_url('src\bootstrap-5.3.3-dist\css\bootstrap.min.css'); ?>">
-  <script src="<?= base_url('src\bootstrap-5.3.3-dist\js\bootstrap.min.js'); ?>"></script>
 
 </head>
 
@@ -50,11 +49,7 @@
     <!-- chart.js -->
     <script src="<?= base_url('src\chart.js-4.4.1\node_modules\chart.js\dist\chart.umd.js'); ?>"></script>
 
-    <script src="<?= base_url('src\js\pue-chart.js'); ?>"></script>
-    <script src="<?= base_url('src\js\lvmdp-chart.js'); ?>"></script>
-    <script src="<?= base_url('src\js\dc-temp-chart.js'); ?>"></script>
-    <script src="<?= base_url('src\js\fuel-chart.js'); ?>"></script>
+    <!-- bootstrap .js -->
+    <script src="<?= base_url('src\bootstrap-5.3.3-dist\js\bootstrap.min.js'); ?>"></script>
 
-</body>
-
-</html>
+<?= $this->renderSection('footer'); ?>

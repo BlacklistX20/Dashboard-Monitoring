@@ -20,3 +20,13 @@
 </div>
 
 <?= $this->endSection(); ?>
+
+<?= $this->section('footer'); ?>
+
+<!-- Custom JS -->
+<script src="<?= base_url('scriptElec.js'); ?>"></script>
+
+</body>
+
+</html>
+<?= $this->endSection(); ?>

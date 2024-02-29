@@ -49,3 +49,13 @@
 </div>
 
 <?= $this->endSection(); ?>
+
+<?= $this->section('footer'); ?>
+
+<!-- Custom JS -->
+<!-- <script src="<?= base_url('scriptFuel.js'); ?>"></script> -->
+
+</body>
+
+</html>
+<?= $this->endSection(); ?>

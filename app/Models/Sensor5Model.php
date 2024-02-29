@@ -4,9 +4,9 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class Sensor1Model extends Model
+class Sensor5Model extends Model
 {
-   protected $table = 'sensor1';
+   protected $table = 'sensor5';
 
    protected $useAutoIncrement = true;
    protected $allowedFields = ['suhu', 'kelembaban', 'waktu'];

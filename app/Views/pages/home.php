@@ -68,3 +68,17 @@
 </div>
 
 <?= $this->endSection(); ?>
+
+<?= $this->section('footer'); ?>
+<script src="<?= base_url('src\js\pue-chart.js'); ?>"></script>
+<script src="<?= base_url('src\js\lvmdp-chart.js'); ?>"></script>
+<script src="<?= base_url('src\js\dc-temp-chart.js'); ?>"></script>
+<script src="<?= base_url('src\js\fuel-chart.js'); ?>"></script>
+
+<!-- Custom JS -->
+<!-- <script src="<?= base_url('script.js'); ?>"></script> -->
+
+</body>
+
+</html>
+<?= $this->endSection(); ?>

@@ -20,7 +20,7 @@
       <section id="lantai1" class="tab-panel">
          <div class="row">
             <div class="col-sm-3 mb-3">
-               <div class="card text-bg-success">
+               <div class="card">
                   <div class="card-header">
                      <h4 class="card-title fw-bold">Ruang Panel</h4>
                   </div>
@@ -28,10 +28,20 @@
                      <h2 class="display-2 fw-bold"><span>26.8</span>&deg;C</h2>
                      <p class="display-5"><span>65</span>%</p>
                   </div>
+                  <div class="card-footer">
+                     <div class="row">
+                        <div class="col">
+                           <small class="text-muted">Last updated <span id="date"></span></small>
+                        </div>
+                        <div class="col d-grid justify-content-end">
+                           <button class="btn btn-outline-dark">Detail</button>
+                        </div>
+                     </div>
+                  </div>
                </div>
             </div>
             <div class="col-sm-3 mb-3">
-               <div class="card text-white bg-warning">
+               <div class="card">
                   <div class="card-header">
                      <h4 class="card-title fw-bold">Ruang Genset</h4>
                   </div>
@@ -39,16 +49,36 @@
                      <h2 class="display-2 fw-bold"><span>13.8</span>&deg;C</h2>
                      <p class="display-5"><span>22</span>%</p>
                   </div>
+                  <div class="card-footer">
+                     <div class="row">
+                        <div class="col">
+                           <small class="text-muted">Last updated <span id="date"></span></small>
+                        </div>
+                        <div class="col d-grid justify-content-end">
+                           <button class="btn btn-outline-dark">Detail</button>
+                        </div>
+                     </div>
+                  </div>
                </div>
             </div>
             <div class="col-sm-3 mb-3">
-               <div class="card text-bg-danger">
+               <div class="card">
                   <div class="card-header">
                      <h4 class="card-title fw-bold">Ruang Trafo</h4>
                   </div>
                   <div class="card-body">
                      <h2 class="display-2 fw-bold"><span>0</span>&deg;C</h2>
                      <p class="display-5"><span>0</span>%</p>
+                  </div>
+                  <div class="card-footer">
+                     <div class="row">
+                        <div class="col">
+                           <small class="text-muted">Last updated <span id="date"></span></small>
+                        </div>
+                        <div class="col d-grid justify-content-end">
+                           <button class="btn btn-outline-dark">Detail</button>
+                        </div>
+                     </div>
                   </div>
                </div>
             </div>
@@ -57,7 +87,7 @@
       <section id="lantai2" class="tab-panel">
          <div class="row">
             <div class="col-sm-3 mb-3">
-               <div class="card text-bg-success">
+               <div class="card">
                   <div class="card-header">
                      <h4 class="card-title fw-bold">Ruang Panel</h4>
                   </div>
@@ -65,10 +95,20 @@
                      <h2 class="display-2 fw-bold"><span>25.6</span>&deg;C</h2>
                      <p class="display-5"><span>65</span>%</p>
                   </div>
+                  <div class="card-footer">
+                     <div class="row">
+                        <div class="col">
+                           <small class="text-muted">Last updated <span id="date"></span></small>
+                        </div>
+                        <div class="col d-grid justify-content-end">
+                           <button class="btn btn-outline-dark">Detail</button>
+                        </div>
+                     </div>
+                  </div>
                </div>
             </div>
             <div class="col-sm-3 mb-3">
-               <div class="card text-white bg-warning">
+               <div class="card">
                   <div class="card-header">
                      <h4 class="card-title fw-bold">Ruang Battery</h4>
                   </div>
@@ -76,10 +116,20 @@
                      <h2 class="display-2 fw-bold"><span>15</span>&deg;C</h2>
                      <p class="display-5"><span>22</span>%</p>
                   </div>
+                  <div class="card-footer">
+                     <div class="row">
+                        <div class="col">
+                           <small class="text-muted">Last updated <span id="date"></span></small>
+                        </div>
+                        <div class="col d-grid justify-content-end">
+                           <button class="btn btn-outline-dark">Detail</button>
+                        </div>
+                     </div>
+                  </div>
                </div>
             </div>
             <div class="col-sm-3 mb-3">
-               <div class="card text-bg-danger">
+               <div class="card">
                   <div class="card-header">
                      <h4 class="card-title fw-bold">Ruang Recti</h4>
                   </div>
@@ -87,10 +137,20 @@
                      <h2 class="display-2 fw-bold"><span>0</span>&deg;C</h2>
                      <p class="display-5"><span>0</span>%</p>
                   </div>
+                  <div class="card-footer">
+                     <div class="row">
+                        <div class="col">
+                           <small class="text-muted">Last updated <span id="date"></span></small>
+                        </div>
+                        <div class="col d-grid justify-content-end">
+                           <button class="btn btn-outline-dark">Detail</button>
+                        </div>
+                     </div>
+                  </div>
                </div>
             </div>
             <div class="col-sm-3 mb-3">
-               <div class="card text-bg-success">
+               <div class="card">
                   <div class="card-header">
                      <h4 class="card-title fw-bold">Ruang MSC</h4>
                   </div>
@@ -98,16 +158,36 @@
                      <h2 class="display-2 fw-bold"><span>22</span>&deg;C</h2>
                      <p class="display-5"><span>70</span>%</p>
                   </div>
+                  <div class="card-footer">
+                     <div class="row">
+                        <div class="col">
+                           <small class="text-muted">Last updated <span id="date"></span></small>
+                        </div>
+                        <div class="col d-grid justify-content-end">
+                           <button class="btn btn-outline-dark">Detail</button>
+                        </div>
+                     </div>
+                  </div>
                </div>
             </div>
             <div class="col-sm-3 mb-3">
-               <div class="card text-bg-success">
+               <div class="card">
                   <div class="card-header">
                      <h4 class="card-title fw-bold">Ruang CSPS</h4>
                   </div>
                   <div class="card-body">
                      <h2 class="display-2 fw-bold"><span>21.7</span>&deg;C</h2>
                      <p class="display-5"><span>57</span>%</p>
+                  </div>
+                  <div class="card-footer">
+                     <div class="row">
+                        <div class="col">
+                           <small class="text-muted">Last updated <span id="date"></span></small>
+                        </div>
+                        <div class="col d-grid justify-content-end">
+                           <button class="btn btn-outline-dark">Detail</button>
+                        </div>
+                     </div>
                   </div>
                </div>
             </div>
@@ -116,7 +196,7 @@
       <section id="lantai3" class="tab-panel">
          <div class="row">
             <div class="col-sm-3 mb-3">
-               <div class="card text-bg-success">
+               <div class="card">
                   <div class="card-header">
                      <h4 class="card-title fw-bold">Ruang Panel</h4>
                   </div>
@@ -124,10 +204,20 @@
                      <h2 class="display-2 fw-bold"><span>25</span>&deg;C</h2>
                      <p class="display-5"><span>65</span>%</p>
                   </div>
+                  <div class="card-footer">
+                     <div class="row">
+                        <div class="col">
+                           <small class="text-muted">Last updated <span id="date"></span></small>
+                        </div>
+                        <div class="col d-grid justify-content-end">
+                           <button class="btn btn-outline-dark">Detail</button>
+                        </div>
+                     </div>
+                  </div>
                </div>
             </div>
             <div class="col-sm-3 mb-3">
-               <div class="card text-bg-success">
+               <div class="card">
                   <div class="card-header">
                      <h4 class="card-title fw-bold">Ruang Battery</h4>
                   </div>
@@ -135,10 +225,20 @@
                      <h2 class="display-2 fw-bold"><span>28</span>&deg;C</h2>
                      <p class="display-5"><span>77</span>%</p>
                   </div>
+                  <div class="card-footer">
+                     <div class="row">
+                        <div class="col">
+                           <small class="text-muted">Last updated <span id="date"></span></small>
+                        </div>
+                        <div class="col d-grid justify-content-end">
+                           <button class="btn btn-outline-dark">Detail</button>
+                        </div>
+                     </div>
+                  </div>
                </div>
             </div>
             <div class="col-sm-3 mb-3">
-               <div class="card text-bg-success">
+               <div class="card">
                   <div class="card-header">
                      <h4 class="card-title fw-bold">Ruang Recti</h4>
                   </div>
@@ -146,10 +246,20 @@
                      <h2 class="display-2 fw-bold"><span>22.2</span>&deg;C</h2>
                      <p class="display-5"><span>45</span>%</p>
                   </div>
+                  <div class="card-footer">
+                     <div class="row">
+                        <div class="col">
+                           <small class="text-muted">Last updated <span id="date"></span></small>
+                        </div>
+                        <div class="col d-grid justify-content-end">
+                           <button class="btn btn-outline-dark">Detail</button>
+                        </div>
+                     </div>
+                  </div>
                </div>
             </div>
             <div class="col-sm-3 mb-3">
-               <div class="card text-bg-success">
+               <div class="card">
                   <div class="card-header">
                      <h4 class="card-title fw-bold">Ruang I&N Vas</h4>
                   </div>
@@ -157,10 +267,20 @@
                      <h2 class="display-2 fw-bold"><span>21.9</span>&deg;C</h2>
                      <p class="display-5"><span>67</span>%</p>
                   </div>
+                  <div class="card-footer">
+                     <div class="row">
+                        <div class="col">
+                           <small class="text-muted">Last updated <span id="date"></span></small>
+                        </div>
+                        <div class="col d-grid justify-content-end">
+                           <button class="btn btn-outline-dark">Detail</button>
+                        </div>
+                     </div>
+                  </div>
                </div>
             </div>
             <div class="col-sm-3 mb-3">
-               <div class="card text-bg-success">
+               <div class="card">
                   <div class="card-header">
                      <h4 class="card-title fw-bold">Ruang Core</h4>
                   </div>
@@ -168,10 +288,20 @@
                      <h2 class="display-2 fw-bold"><span>21.4</span>&deg;C</h2>
                      <p class="display-5"><span>48</span>%</p>
                   </div>
+                  <div class="card-footer">
+                     <div class="row">
+                        <div class="col">
+                           <small class="text-muted">Last updated <span id="date"></span></small>
+                        </div>
+                        <div class="col d-grid justify-content-end">
+                           <button class="btn btn-outline-dark">Detail</button>
+                        </div>
+                     </div>
+                  </div>
                </div>
             </div>
             <div class="col-sm-3 mb-3">
-               <div class="card text-bg-success">
+               <div class="card">
                   <div class="card-header">
                      <h4 class="card-title fw-bold">Ruang M Kios</h4>
                   </div>
@@ -179,16 +309,36 @@
                      <h2 class="display-2 fw-bold"><span>20.2</span>&deg;C</h2>
                      <p class="display-5"><span>53</span>%</p>
                   </div>
+                  <div class="card-footer">
+                     <div class="row">
+                        <div class="col">
+                           <small class="text-muted">Last updated <span id="date"></span></small>
+                        </div>
+                        <div class="col d-grid justify-content-end">
+                           <button class="btn btn-outline-dark">Detail</button>
+                        </div>
+                     </div>
+                  </div>
                </div>
             </div>
             <div class="col-sm-3 mb-3">
-               <div class="card text-bg-success">
+               <div class="card">
                   <div class="card-header">
                      <h4 class="card-title fw-bold">Ruang OCS</h4>
                   </div>
                   <div class="card-body">
                      <h2 class="display-2 fw-bold"><span>20.1</span>&deg;C</h2>
                      <p class="display-5"><span>61</span>%</p>
+                  </div>
+                  <div class="card-footer">
+                     <div class="row">
+                        <div class="col">
+                           <small class="text-muted">Last updated <span id="date"></span></small>
+                        </div>
+                        <div class="col d-grid justify-content-end">
+                           <button class="btn btn-outline-dark">Detail</button>
+                        </div>
+                     </div>
                   </div>
                </div>
             </div>
@@ -197,29 +347,49 @@
       <section id="lantai4" class="tab-panel">
          <div class="row">
             <div class="col-sm-3 mb-3">
-               <div class="card text-bg-danger">
+               <div id="cardPanel" class="card">
                   <div class="card-header">
                      <h4 class="card-title fw-bold">Ruang Panel</h4>
                   </div>
                   <div class="card-body">
-                     <h2 class="display-2 fw-bold"><span>0</span>&deg;C</h2>
-                     <p class="display-5"><span>0</span>%</p>
+                     <h2 class="display-2 fw-bold"><span id="suhuPanel4">0</span>&deg;C</h2>
+                     <p class="display-5"><span id="kelemPanel4">0</span>%</p>
+                  </div>
+                  <div class="card-footer">
+                     <div class="row">
+                        <div class="col">
+                           <small class="text-muted">Last updated <span id="date"></span></small>
+                        </div>
+                        <div class="col d-grid justify-content-end">
+                           <button class="btn btn-outline-dark">Detail</button>
+                        </div>
+                     </div>
                   </div>
                </div>
             </div>
             <div class="col-sm-3 mb-3">
-               <div class="card text-bg-danger">
+               <div id="cardBatt" class="card">
                   <div class="card-header">
                      <h4 class="card-title fw-bold">Ruang Battery</h4>
                   </div>
                   <div class="card-body">
-                     <h2 class="display-2 fw-bold"><span>0</span>&deg;C</h2>
-                     <p class="display-5"><span>0</span>%</p>
+                     <h2 class="display-2 fw-bold"><span id="suhuBatt4">0</span>&deg;C</h2>
+                     <p class="display-5"><span id="kelemBatt4">0</span>%</p>
+                  </div>
+                  <div class="card-footer">
+                     <div class="row">
+                        <div class="col">
+                           <small class="text-muted">Last updated <span id="date"></span></small>
+                        </div>
+                        <div class="col d-grid justify-content-end">
+                           <button class="btn btn-outline-dark">Detail</button>
+                        </div>
+                     </div>
                   </div>
                </div>
             </div>
             <div class="col-sm-3 mb-3">
-               <div class="card text-bg-success">
+               <div id="cardRecti" class="card">
                   <div class="card-header">
                      <h4 class="card-title fw-bold">Ruang Recti</h4>
                   </div>
@@ -227,21 +397,41 @@
                      <h2 class="display-2 fw-bold"><span id="suhuRecti4"></span>&deg;C</h2>
                      <p class="display-5"><span id="kelemRecti4"></span>%</p>
                   </div>
+                  <div class="card-footer">
+                     <div class="row">
+                        <div class="col">
+                           <small class="text-muted">Last updated <span id="date"></span></small>
+                        </div>
+                        <div class="col d-grid justify-content-end">
+                           <button class="btn btn-outline-dark">Detail</button>
+                        </div>
+                     </div>
+                  </div>
                </div>
             </div>
             <div class="col-sm-3 mb-3">
-               <div class="card text-bg-success">
+               <div id="cardBss" class="card">
                   <div class="card-header">
                      <h4 class="card-title fw-bold">Ruang BSC/BSS</h4>
                   </div>
                   <div class="card-body">
-                     <h2 class="display-2 fw-bold"><span id="suhuBSS4"></span>&deg;C</h2>
-                     <p class="display-5"><span id="kelemBSS4"></span>%</p>
+                     <h2 class="display-2 fw-bold"><span id="suhuBSS"></span>&deg;C</h2>
+                     <p class="display-5"><span id="kelemBSS"></span>%</p>
+                  </div>
+                  <div class="card-footer">
+                     <div class="row">
+                        <div class="col">
+                           <small class="text-muted">Last updated <span id="date"></span></small>
+                        </div>
+                        <div class="col d-grid justify-content-end">
+                           <button class="btn btn-outline-dark">Detail</button>
+                        </div>
+                     </div>
                   </div>
                </div>
             </div>
             <div class="col-sm-3 mb-3">
-               <div class="card text-bg-danger">
+               <div id="cardInter" class="card">
                   <div class="card-header">
                      <h4 class="card-title fw-bold">Ruang Interkoneksi</h4>
                   </div>
@@ -249,16 +439,36 @@
                      <h2 class="display-2 fw-bold"><span>0</span>&deg;C</h2>
                      <p class="display-5"><span>0</span>%</p>
                   </div>
+                  <div class="card-footer">
+                     <div class="row">
+                        <div class="col">
+                           <small class="text-muted">Last updated <span id="date"></span></small>
+                        </div>
+                        <div class="col d-grid justify-content-end">
+                           <button class="btn btn-outline-dark">Detail</button>
+                        </div>
+                     </div>
+                  </div>
                </div>
             </div>
             <div class="col-sm-3 mb-3">
-               <div class="card text-bg-danger">
+               <div id="cardTrans" class="card">
                   <div class="card-header">
-                     <h4 class="card-title fw-bold">Ruang Transmisi</h4>
+                     <h4 class="card-title fw-bold text-dark">Ruang Transmisi</h4>
                   </div>
                   <div class="card-body">
                      <h2 class="display-2 fw-bold"><span>0</span>&deg;C</h2>
                      <p class="display-5"><span>0</span>%</p>
+                  </div>
+                  <div class="card-footer">
+                     <div class="row">
+                        <div class="col">
+                           <small class="text-muted">Last updated <span id="date"></span></small>
+                        </div>
+                        <div class="col d-grid justify-content-end">
+                           <button class="btn btn-outline-dark">Detail</button>
+                        </div>
+                     </div>
                   </div>
                </div>
             </div>
@@ -267,7 +477,7 @@
       <section id="lantai5" class="tab-panel">
          <div class="row">
             <div class="col-sm-3 mb-3">
-               <div class="card text-bg-success">
+               <div class="card">
                   <div class="card-header">
                      <h4 class="card-title fw-bold">Ruang Panel</h4>
                   </div>
@@ -275,10 +485,20 @@
                      <h2 class="display-2 fw-bold"><span>25</span>&deg;C</h2>
                      <p class="display-5"><span>65</span>%</p>
                   </div>
+                  <div class="card-footer">
+                     <div class="row">
+                        <div class="col">
+                           <small class="text-muted">Last updated <span id="date"></span></small>
+                        </div>
+                        <div class="col d-grid justify-content-end">
+                           <button class="btn btn-outline-dark">Detail</button>
+                        </div>
+                     </div>
+                  </div>
                </div>
             </div>
             <div class="col-sm-3 mb-3">
-               <div class="card text-bg-success">
+               <div class="card">
                   <div class="card-header">
                      <h4 class="card-title fw-bold">Ruang Utility A</h4>
                   </div>
@@ -286,10 +506,20 @@
                      <h2 class="display-2 fw-bold"><span>28</span>&deg;C</h2>
                      <p class="display-5"><span>77</span>%</p>
                   </div>
+                  <div class="card-footer">
+                     <div class="row">
+                        <div class="col">
+                           <small class="text-muted">Last updated <span id="date"></span></small>
+                        </div>
+                        <div class="col d-grid justify-content-end">
+                           <button class="btn btn-outline-dark">Detail</button>
+                        </div>
+                     </div>
+                  </div>
                </div>
             </div>
             <div class="col-sm-3 mb-3">
-               <div class="card text-bg-success">
+               <div class="card">
                   <div class="card-header">
                      <h4 class="card-title fw-bold">Ruang Utility B</h4>
                   </div>
@@ -297,10 +527,20 @@
                      <h2 class="display-2 fw-bold"><span>22.2</span>&deg;C</h2>
                      <p class="display-5"><span>45</span>%</p>
                   </div>
+                  <div class="card-footer">
+                     <div class="row">
+                        <div class="col">
+                           <small class="text-muted">Last updated <span id="date"></span></small>
+                        </div>
+                        <div class="col d-grid justify-content-end">
+                           <button class="btn btn-outline-dark">Detail</button>
+                        </div>
+                     </div>
+                  </div>
                </div>
             </div>
             <div class="col-sm-3 mb-3">
-               <div class="card text-bg-success">
+               <div class="card">
                   <div class="card-header">
                      <h4 class="card-title fw-bold">Ruang Data Center</h4>
                   </div>
@@ -308,16 +548,36 @@
                      <h2 class="display-2 fw-bold"><span>21.9</span>&deg;C</h2>
                      <p class="display-5"><span>67</span>%</p>
                   </div>
+                  <div class="card-footer">
+                     <div class="row">
+                        <div class="col">
+                           <small class="text-muted">Last updated <span id="date"></span></small>
+                        </div>
+                        <div class="col d-grid justify-content-end">
+                           <button class="btn btn-outline-dark">Detail</button>
+                        </div>
+                     </div>
+                  </div>
                </div>
             </div>
             <div class="col-sm-3 mb-3">
-               <div class="card text-bg-success">
+               <div class="card">
                   <div class="card-header">
                      <h4 class="card-title fw-bold">Ruang Containment</h4>
                   </div>
                   <div class="card-body">
                      <h2 class="display-2 fw-bold"><span>21.4</span>&deg;C</h2>
                      <p class="display-5"><span>48</span>%</p>
+                  </div>
+                  <div class="card-footer">
+                     <div class="row">
+                        <div class="col">
+                           <small class="text-muted">Last updated <span id="date"></span></small>
+                        </div>
+                        <div class="col d-grid justify-content-end">
+                           <button class="btn btn-outline-dark">Detail</button>
+                        </div>
+                     </div>
                   </div>
                </div>
             </div>
